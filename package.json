@@ -1,0 +1,22 @@
+{
+  "name": "new-project-template",
+  "version": "1.0.0",
+  "description": "A project to create a new project template.\r ## Added Git\r Created repo on Github.\r Used clone ssh_url to clone to local folder.\r It added hidden .git folder.\r EXPECTED: It did not create a remote file \"adds remote\"",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeFairplay/new-project-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoeFairplay/new-project-template/issues"
+  },
+  "homepage": "https://github.com/JoeFairplay/new-project-template#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
