@@ -51,4 +51,10 @@ Result: PASSED
 Install file include: npm install --save-dev gulp-file-include  
 #### Test file-include
 Created an html include as test. (PASSED}  
+# Clean Up
+Moved files to src.  
+Edited gulpfile to new paths.  
+Added * to gulpfile to move html without includes to dist folder.  
+Tested Sass, Gulp and Git.  
+Result: PASSED  
 
