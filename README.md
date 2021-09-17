@@ -29,3 +29,4 @@ Added test.scss.
 Ran Watch Sass
 Sass created folder and included node modules.
 Added ignore node module folder to sass live extensions global exclude "**/node_modules/**".
+Result: PASSED
