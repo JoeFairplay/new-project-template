@@ -30,3 +30,4 @@ Ran Watch Sass
 Sass created folder and included node modules.
 Added ignore node module folder to sass live extensions global exclude "**/node_modules/**".
 Result: PASSED
+Deleted nodes module folder (Maybe too early since I did not add gulp and extensions yet).
