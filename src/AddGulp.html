@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        img {
+  border: 5px solid #555;
+  width: 500px;
+}
+.docMainContainer_2iGs {
+    width: 800px;
+}
+        </style>
+</head>
+
+<body>
+    <div>
+        <h2>New Project Setup</h2>
+        <ul>
+            <li>Folder</li>
+            <li>GitHub</li>
+            <li>Project Board</li>
+            <li>Gulp</li>
+            <li></li>
+            <li></li>
+            <li>SASS</li>
+            <li>Files</li>            
+        </ul>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+        <h3>Gulp Setup</h3>
+        <p>01 Initialize npm (Node.js) from the root of your project:</p>
+        <code>npm init</code>
+        <p>This creates a package.json file at the root of the project. This file is used by node.js to keep track of the installed packages.</p>    
+    <div>
+        <main class="docMainContainer_2iGs"><div class="container padding-vert--lg docItemWrapper_1bxp"><div class="row"><div class="col docItemCol_U38p"><div class="docItemContainer_a7m4"><article><div class="markdown"><h1><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_prK2" id="quick-start"></a>Quick Start<a class="hash-link" href="#quick-start" title="Direct link to heading">#</a></h1><p>If you've previously installed gulp globally, run <code>npm rm --global gulp</code> before following these instructions. For more information, read this <a href="https://medium.com/gulpjs/gulp-sips-command-line-interface-e53411d4467" target="_blank" rel="noopener noreferrer">Sip</a>.</p><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_prK2" id="check-for-node-npm-and-npx"></a>Check for node, npm, and npx<a class="hash-link" href="#check-for-node-npm-and-npx" title="Direct link to heading">#</a></h2><div class="mdxCodeBlock_1zKU"><div class="codeBlockContent_actS"><div tabindex="0" class="prism-code language-sh codeBlock_tuNs thin-scrollbar"><div class="codeBlockLines_3uvA" style="color: rgb(156, 220, 254); background-color: rgb(30, 30, 30);"><div class="token-line" style="color: rgb(156, 220, 254);"><span class="token plain">node --version</span></div></div></div><button type="button" aria-label="Copy code to clipboard" class="copyButton_2GIj">Copy</button></div></div><p><img src="https://gulpjs.com/img/docs-node-version-command.png" alt="Output: v8.11.1"></p><div class="mdxCodeBlock_1zKU"><div class="codeBlockContent_actS"><div tabindex="0" class="prism-code language-sh codeBlock_tuNs thin-scrollbar"><div class="codeBlockLines_3uvA" style="color: rgb(156, 220, 254); background-color: rgb(30, 30, 30);"><div class="token-line" style="color: rgb(156, 220, 254);"><span class="token plain">npm --version</span></div></div></div><button type="button" aria-label="Copy code to clipboard" class="copyButton_2GIj">Copy</button></div></div><p><img src="https://gulpjs.com/img/docs-npm-version-command.png" alt="Output: 5.6.0"></p><div class="mdxCodeBlock_1zKU"><div class="codeBlockContent_actS"><div tabindex="0" class="prism-code language-sh codeBlock_tuNs thin-scrollbar"><div class="codeBlockLines_3uvA" style="color: rgb(156, 220, 254); background-color: rgb(30, 30, 30);"><div class="token-line" style="color: rgb(156, 220, 254);"><span class="token plain">npx --version</span></div></div></div><button type="button" aria-label="Copy code to clipboard" class="copyButton_2GIj">Copy</button></div></div><p><img src="https://gulpjs.com/img/docs-npx-version-command.png" alt="Output: 9.7.1"></p>
+            <p>If they are not installed, follow the instructions <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+            <h4>Move Initialize here</h4>
+            <h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_prK2" id="install-the-gulp-command-line-utility"></a>Install the gulp command line utility<a class="hash-link" href="#install-the-gulp-command-line-utility" title="Direct link to heading">#</a></h2><div class="mdxCodeBlock_1zKU"><div class="codeBlockContent_actS"><div tabindex="0" class="prism-code language-sh codeBlock_tuNs thin-scrollbar"><div class="codeBlockLines_3uvA" style="color: rgb(156, 220, 254); background-color: rgb(30, 30, 30);"><div class="token-line" style="color: rgb(156, 220, 254);"><span class="token plain">npm install --global gulp-cli</span></div></div></div><button type="button" aria-label="Copy code to clipboard" class="copyButton_2GIj">Copy</button></div></div><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_prK2" id="create-a-project-directory-and-navigate-into-it"></a>Create a project directory and navigate into it<a class="hash-link" href="#create-a-project-directory-and-navigate-into-it" title="Direct link to heading">#</a></h2><div class="mdxCodeBlock_1zKU"><div class="codeBlockContent_actS"><div tabindex="0" class="prism-code language-sh codeBlock_tuNs thin-scrollbar"><div class="codeBlockLines_3uvA" style="color: rgb(156, 220, 254); background-color: rgb(30, 30, 30);"><div class="token-line" style="color: rgb(156, 220, 254);"><span class="token plain">npx mkdirp my-project</span></div></div></div><button type="button" aria-label="Copy code to clipboard" class="copyButton_2GIj">Copy</button></div></div><div class="mdxCodeBlock_1zKU"><div class="codeBlockContent_actS"><div tabindex="0" class="prism-code language-sh codeBlock_tuNs thin-scrollbar"><div class="codeBlockLines_3uvA" style="color: rgb(156, 220, 254); background-color: rgb(30, 30, 30);"><div class="token-line" style="color: rgb(156, 220, 254);"><span class="token plain">cd my-project</span></div></div></div><button type="button" aria-label="Copy code to clipboard" class="copyButton_2GIj">Copy</button></div></div><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_prK2" id="create-a-packagejson-file-in-your-project-directory"></a>Create a package.json file in your project directory<a class="hash-link" href="#create-a-packagejson-file-in-your-project-directory" title="Direct link to heading">#</a></h2><div class="mdxCodeBlock_1zKU"><div class="codeBlockContent_actS"><div tabindex="0" class="prism-code language-sh codeBlock_tuNs thin-scrollbar"><div class="codeBlockLines_3uvA" style="color: rgb(156, 220, 254); background-color: rgb(30, 30, 30);"><div class="token-line" style="color: rgb(156, 220, 254);"><span class="token plain">npm init</span></div></div></div><button type="button" aria-label="Copy code to clipboard" class="copyButton_2GIj">Copy</button></div></div><p>This will guide you through giving your project a name, version, description, etc.</p><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_prK2" id="install-the-gulp-package-in-your-devdependencies"></a>Install the gulp package in your devDependencies<a class="hash-link" href="#install-the-gulp-package-in-your-devdependencies" title="Direct link to heading">#</a></h2><div class="mdxCodeBlock_1zKU"><div class="codeBlockContent_actS"><div tabindex="0" class="prism-code language-sh codeBlock_tuNs thin-scrollbar"><div class="codeBlockLines_3uvA" style="color: rgb(156, 220, 254); background-color: rgb(30, 30, 30);"><div class="token-line" style="color: rgb(156, 220, 254);"><span class="token plain">npm install --save-dev gulp</span></div></div></div><button type="button" aria-label="Copy code to clipboard" class="copyButton_2GIj">Copy</button></div></div><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_prK2" id="verify-your-gulp-versions"></a>Verify your gulp versions<a class="hash-link" href="#verify-your-gulp-versions" title="Direct link to heading">#</a></h2><div class="mdxCodeBlock_1zKU"><div class="codeBlockContent_actS"><div tabindex="0" class="prism-code language-sh codeBlock_tuNs thin-scrollbar"><div class="codeBlockLines_3uvA" style="color: rgb(156, 220, 254); background-color: rgb(30, 30, 30);"><div class="token-line" style="color: rgb(156, 220, 254);"><span class="token plain">gulp --version</span></div></div></div><button type="button" aria-label="Copy code to clipboard" class="copyButton_2GIj">Copy</button></div></div><p>Ensure the output matches the screenshot below or you might need to restart the steps in this guide.</p><p><img src="https://gulpjs.com/img/docs-gulp-version-command.png" alt="Output: CLI version 2.0.1 &amp; Local version 4.0.0"></p><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_prK2" id="create-a-gulpfile"></a>Create a gulpfile<a class="hash-link" href="#create-a-gulpfile" title="Direct link to heading">#</a></h2><p>Using your text editor, create a file named gulpfile.js in your project root with these contents:</p><div class="mdxCodeBlock_1zKU"><div class="codeBlockContent_actS"><div tabindex="0" class="prism-code language-js codeBlock_tuNs thin-scrollbar"><div class="codeBlockLines_3uvA" style="color: rgb(156, 220, 254); background-color: rgb(30, 30, 30);"><div class="token-line" style="color: rgb(156, 220, 254);"><span class="token keyword" style="color: rgb(86, 156, 214);">function</span><span class="token plain"> </span><span class="token function" style="color: rgb(220, 220, 170);">defaultTask</span><span class="token punctuation" style="color: rgb(212, 212, 212);">(</span><span class="token parameter">cb</span><span class="token punctuation" style="color: rgb(212, 212, 212);">)</span><span class="token plain"> </span><span class="token punctuation" style="color: rgb(212, 212, 212);">{</span><span class="token plain"></span></div><div class="token-line" style="color: rgb(156, 220, 254);"><span class="token plain">  </span><span class="token comment" style="color: rgb(106, 153, 85);">// place code for your default task here</span><span class="token plain"></span></div><div class="token-line" style="color: rgb(156, 220, 254);"><span class="token plain">  </span><span class="token function" style="color: rgb(220, 220, 170);">cb</span><span class="token punctuation" style="color: rgb(212, 212, 212);">(</span><span class="token punctuation" style="color: rgb(212, 212, 212);">)</span><span class="token punctuation" style="color: rgb(212, 212, 212);">;</span><span class="token plain"></span></div><div class="token-line" style="color: rgb(156, 220, 254);"><span class="token plain"></span><span class="token punctuation" style="color: rgb(212, 212, 212);">}</span><span class="token plain"></span></div><div class="token-line" style="color: rgb(156, 220, 254);"><span class="token plain" style="display: inline-block;">
+        </span></div><div class="token-line" style="color: rgb(156, 220, 254);"><span class="token plain">exports</span><span class="token punctuation" style="color: rgb(212, 212, 212);">.</span><span class="token keyword module" style="color: rgb(86, 156, 214);">default</span><span class="token plain"> </span><span class="token operator" style="color: rgb(212, 212, 212);">=</span><span class="token plain"> defaultTask</span></div></div></div><button type="button" aria-label="Copy code to clipboard" class="copyButton_2GIj">Copy</button></div></div><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_prK2" id="test-it"></a>Test it<a class="hash-link" href="#test-it" title="Direct link to heading">#</a></h2><p>Run the gulp command in your project directory:</p><div class="mdxCodeBlock_1zKU"><div class="codeBlockContent_actS"><div tabindex="0" class="prism-code language-sh codeBlock_tuNs thin-scrollbar"><div class="codeBlockLines_3uvA" style="color: rgb(156, 220, 254); background-color: rgb(30, 30, 30);"><div class="token-line" style="color: rgb(156, 220, 254);"><span class="token plain">gulp</span></div></div></div><button type="button" aria-label="Copy code to clipboard" class="copyButton_2GIj">Copy</button></div></div><p>To run multiple tasks, you can use <code>gulp &lt;task&gt; &lt;othertask&gt;</code>.</p><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_prK2" id="result"></a>Result<a class="hash-link" href="#result" title="Direct link to heading">#</a></h2><p>The default task will run and do nothing.
+        <img src="https://gulpjs.com/img/docs-gulp-command.png" alt="Output: Starting default &amp; Finished default"></p></div></article><div class="margin-vert--lg"><nav class="pagination-nav" aria-label="Blog list page navigation"><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/docs/en/getting-started/javascript-and-gulpfiles"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">JavaScript and Gulpfiles »</div></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_2xL- thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#check-for-node-npm-and-npx" class="table-of-contents__link table-of-contents__link--active">Check for node, npm, and npx</a></li><li><a href="#install-the-gulp-command-line-utility" class="table-of-contents__link">Install the gulp command line utility</a></li><li><a href="#create-a-project-directory-and-navigate-into-it" class="table-of-contents__link">Create a project directory and navigate into it</a></li><li><a href="#create-a-packagejson-file-in-your-project-directory" class="table-of-contents__link">Create a package.json file in your project directory</a></li><li><a href="#install-the-gulp-package-in-your-devdependencies" class="table-of-contents__link">Install the gulp package in your devDependencies</a></li><li><a href="#verify-your-gulp-versions" class="table-of-contents__link">Verify your gulp versions</a></li><li><a href="#create-a-gulpfile" class="table-of-contents__link">Create a gulpfile</a></li><li><a href="#test-it" class="table-of-contents__link">Test it</a></li><li><a href="#result" class="table-of-contents__link">Result</a></li></ul></div></div></div></div></main>
+    </div>
+    <div>
+
+        
+        <h2>INSTALL PACKAGES</h2>
+        <p> To install the plugins, go back to the node.js command prompt and navigate to the root of your project. Then
+            execute the following commands, one at a time:</p>
+        <p>Gulp plugins to help us perform tasks.</p>
+        <ul>
+            <li>01 Includes: npm install --save-dev gulp-file-include</li>
+            <p>01: The API Call in the .js file: const fileinclude = require('gulp-file-include');</p>
+            <li><img class="border" src="share-nodes-folder.png" alt=""></li>
+            <li>Another option: PNPM can reuse node modules</li>
+        </ul>
+        <ul>           
+            <li></li>
+            <li>gulp-sass (convert SCSS to CSS)</li>
+            <li>gulp-autoprefixer (add support for older browsers)</li>
+            <li>gulp-clean-css (minify CSS)</li>
+            <li>gulp-terser (minify JS—support for ES6)</li>
+            <li>gulp-imagemin (minify images jpg and png for the web)</li>
+            <li>gulp-webp (create webp images for the web)</li>
+        </ul>
+        <ul>
+            <li>typescript</li>
+            <li>merge</li>
+            <li>sass</li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <p> npm install gulp-sass --save-dev</p>
+        <p> npm install gulp-typescript</p>
+        <p> npm install merge2</p>    
+    </div>
+</body>
+
+</html>

@@ -10,7 +10,7 @@
 const gulp = require('gulp');
 
 gulp.task('fileinclude', async function() {
-  gulp.src(['include-index.html'])
+  gulp.src(['src/*.html'])
     .pipe(fileinclude({
       prefix: '@@',
       basepath: '@file'

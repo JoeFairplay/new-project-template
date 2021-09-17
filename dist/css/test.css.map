@@ -1,9 +1,9 @@
 {
     "version": 3,
-    "mappings": "ACAA,AAAA,KAAK,CAAC;EAAC,KAAK,EAAE,GAAG;EAAC,gBAAgB,EAAE,KAAK;CAAG",
+    "mappings": "ACAA,AAAA,KAAK,CAAC;EAAC,KAAK,EAAE,IAAI;EAAC,gBAAgB,EAAE,KAAK;CAAG",
     "sources": [
-        "../../scss/test.scss",
-        "../../scss/_color.scss"
+        "../../src/scss/test.scss",
+        "../../src/scss/_color.scss"
     ],
     "names": [],
     "file": "test.css"
