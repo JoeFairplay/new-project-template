@@ -18,5 +18,8 @@
   "homepage": "https://github.com/JoeFairplay/new-project-template#readme",
   "dependencies": {
     "node-sass": "^6.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
   }
 }
