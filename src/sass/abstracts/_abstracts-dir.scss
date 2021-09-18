@@ -1,0 +1,22 @@
+// Abstracts of variables, functions and mixins. Nothing here outputs css.
+// DO NOT REORDER
+
+// Bootstrap Core Functions
+//@import '../Vendors/bootstrap-511/scss/functions';  //C:\Upstate\WebDev\Vendors\bootstrap-511
+@import '../../../../../Vendors/bootstrap-511/scss/functions';
+// UCWebsite variable overrides
+@import 'variables/bsvariables';
+
+// Bootstrap Core
+@import '../../../../../Vendors/bootstrap-511/scss/variables'; // 0 lines
+@import '../../../../../Vendors/bootstrap-511/scss/mixins'; // 0 lines
+@import '../../../../../Vendors/bootstrap-511/scss/utilities'; // 0 lines
+@import '../../../../../Vendors/bootstrap-511/scss/root'; // 58 lines
+@import '../../../../../Vendors/bootstrap-511/scss/reboot'; // 435 lines
+
+// Vendor variable overridess
+// @import 'variables/fontawesome';
+
+// Mixins
+// @import 'mixins/hero';
+// @import 'mixins/layer';

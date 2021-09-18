@@ -1,0 +1,17 @@
+
+
+.card {
+    display: block;
+
+    .title{
+        font-size: 24em;
+    }
+
+    .body{
+        background-color: blue;
+
+        a {
+            text-decoration: underline;
+        }
+    }
+}

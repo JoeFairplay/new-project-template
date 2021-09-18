@@ -1,0 +1,34 @@
+/*
+Upstate Construction V1
+Author: JRD
+*/
+
+// Abstracts
+// variables/mixins for project - our BS variables override file lives here
+// bootstrap variables
+@import 'abstracts/_abstracts-dir';
+// font awesome variables
+// mixins like hero and layer
+
+//Vendor
+// cherry pick BS Sass files from BS folder, we do the same for font-awesome
+// external libraries
+// bootstrap
+// @import 'vendor/_vendor-dir';
+// font awesome
+
+
+
+//Base Styles
+// base styles
+// @import 'base/_base-dir';
+
+// Components
+// hold this like hero, layers and custom button styles here
+// @import 'components/_components-dir';
+
+// Layouts
+// general structur-based stuff like header, footer etc.
+// @import 'layouts/_layouts-dir';
+
+
