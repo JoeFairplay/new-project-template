@@ -69,6 +69,6 @@ Created repo on Github from template
 Cloned project to local folder in sandbox  
 Tested new folder project for usability (PASSED)  
 # Final Clean Up
-Add sass folder
-Convert from scss folder to sass folder
+Added sass folder  
+Converted from scss folder to sass folder  
 Commit and Push
