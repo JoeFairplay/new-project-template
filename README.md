@@ -64,5 +64,11 @@ Tested site functionality
 Result PASSED  
 Commit and Push Project (Completed)
 # Test Project Portability
-1. Clone project to new folder
-1. Test new folder project for usability
+Turned repo into a template on Github  
+Created repo on Github from template  
+Cloned project to local folder in sandbox  
+Tested new folder project for usability (PASSED)  
+# Final Clean Up
+Add sass folder
+Convert from scss folder to sass folder
+Commit and Push
