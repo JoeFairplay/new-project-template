@@ -57,4 +57,12 @@ Edited gulpfile to new paths.
 Added * to gulpfile to move html without includes to dist folder.  
 Tested Sass, Gulp and Git.  
 Result: PASSED  
-
+Added Readme file for Development.  
+Added Readme file for Deploy.  
+Removed node modules folder
+Tested site functionality 
+Result PASSED  
+Commit and Push Project (Completed)
+# Test Project Portability
+1. Clone project to new folder
+1. Test new folder project for usability
