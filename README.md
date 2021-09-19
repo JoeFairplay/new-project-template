@@ -72,3 +72,5 @@ Tested new folder project for usability (PASSED)
 Added sass folder  
 Converted from scss folder to sass folder  
 Commit and Push
+# Updates
+Added Readme Extension
